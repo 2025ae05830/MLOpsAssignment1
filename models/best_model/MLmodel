@@ -1,0 +1,25 @@
+artifact_path: /home/panchal/Documents/BitsAssignments/MLOps/mlruns/1/models/m-5557c48d765f40869c3b6056f78167ea/artifacts
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.skops
+    predict_fn: predict
+    python_version: 3.14.4
+  sklearn:
+    code: null
+    pickled_model: model.skops
+    serialization_format: skops
+    sklearn_version: 1.9.1
+    skops_trusted_types:
+    - numpy.dtype
+    - sklearn.tree._tree.Tree
+mlflow_version: 3.16.1
+model_id: m-5557c48d765f40869c3b6056f78167ea
+model_size_bytes: 198762
+model_uuid: m-5557c48d765f40869c3b6056f78167ea
+prompts: null
+run_id: 93944339cf054bd485f0cb93cc6301a1
+utc_time_created: '2026-10-20 10:17:28.493870'

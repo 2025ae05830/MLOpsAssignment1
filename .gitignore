@@ -1,0 +1,29 @@
+.venv/
+__pycache__/
+*.pyc
+mlruns/
+.mlruns/
+.pytest_cache/
+.ipynb_checkpoints/
+*.egg-info/
+dist/
+build/
+.env
+project_notes/
+*.crdownload
+
+# Raw data is downloaded by the script (see README)
+data/raw/
+# Cleaned dataset IS committed for the assignment deliverable
+!data/processed/heart_clean.csv
+
+# Report figures ARE committed as evidence; report documents are added later
+# LibreOffice lock files
+.~lock.*#
+
+# Report documents are distributed separately, not in the repo
+reports/*
+# ...but the final report and generated figures ARE committed deliverables
+!reports/figures/
+!reports/figures/**
+!reports/FINAL_REPORT.docx
